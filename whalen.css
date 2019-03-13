@@ -1,6 +1,6 @@
 <STYLE TYPE-"type/css">
 
-<!--
+/*
 A:link {color: #4C33A1}
 A:visited {color: #4C3327}
 H1 {font-size: 32pt; font-family: braggadocio; text-align:center; color: #4C3327}
@@ -51,6 +51,7 @@ td.header {font size:16pt; font-weight: bold; color: #F2EFE4; background: #BD363
 #vertmenu li a {color: #ff0; background-color: #300000; border: 1px outset #ff8080; width: 180px; text-decoration: none; display: block}
 #vertmenu li a:hover {color: #000; background-color: #ffbfbf}
 
+*/
 /* Style the header with a grey background and some padding */
 whalen.header {
   overflow: hidden;
@@ -93,7 +94,7 @@ whalen.header-right {
   float: right;
 }
 
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
   whalen.header a {
     float: none;
@@ -103,7 +104,6 @@ whalen.header-right {
   whalen.header-right {
     float: none;
   }
-} */
--->
+}
 
 </STYLE>
