@@ -92,7 +92,7 @@ td.header {font size:16pt; font-weight: bold; color: #F2EFE4; background: #BD363
   color: white;
 }
 
-.header-right {
+.header_main-right {
   float: right;
 }
 
@@ -103,7 +103,7 @@ td.header {font size:16pt; font-weight: bold; color: #F2EFE4; background: #BD363
     text-align: left;
   }
   
-  .header-right {
+  .header_main-right {
     float: none;
   }
 }
