@@ -66,6 +66,7 @@ body {
   }
 }
 
+/* did not work, ended up with a menu that launched the new page within itself
 nav {
     font-family: monospace;
 }
@@ -127,5 +128,6 @@ ul li ul li {
     clear: both;
   width: 100%;
 }
+*/
 
 </STYLE>
