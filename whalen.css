@@ -9,14 +9,14 @@ body {
 
 .content_main {
   max-width: 960px;
-  background-color: #f2f2f2;
+  background-color: #8da7be;
   padding: 20px 10px;
   margin: auto;
 }
 
 .header_main {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #508991;
   padding: 20px 10px;
 }
 
@@ -37,13 +37,13 @@ body {
 }
 
 .header_main a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #343e3d;
+  color: #508991;
 }
 
 .header_main a.active {
-  background-color: dodgerblue;
-  color: white;
+  background-color: #0e402d;
+  color: #8da7be;
 }
 
 .header_main-right {
