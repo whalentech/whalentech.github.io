@@ -7,58 +7,11 @@ body {
   font-family: "Times New Roman", "Times New Roman", serif;
 }
 
-/*
-A:link {color: #4C33A1}
-A:visited {color: #4C3327}
-H1 {font-size: 32pt; font-family: braggadocio; text-align:center; color: #4C3327}
-
-H2 {font-size: 24pt; font-family: braggadocio; text-align:center; color: #BD3632}
-H3 {margin: 20 20 20; font size:20pt; font-family: braggadocio; color: #BD3632}
-H3.first {margin: 20 40 20; font size:14pt; font-family: braggadocio; color: #BD3632}
-H3.second {margin: 20 60 20; font size:14pt; font-family: braggadocio; color: #BD3632}
-
-H3.test0 {margin: 20 60 20; font size:34pt; font-family: braggadocio; color: #CB8C1D}
-H3.test1 {margin: 20 60 20; font size:34pt; font-family: braggadocio; color: #BD3632}
-H3.test2 {margin: 20 60 20; font size:34pt; font-family: braggadocio; color: #00B050}
-H3.test3 {margin: 20 60 20; font size:34pt; font-family: braggadocio; color: #00B0B0}
-H3.test4 {margin: 20 60 20; font size:34pt; font-family: braggadocio; color: #4C3327}
-H3.test5 {margin: 20 60 20; font size:34pt; font-family: braggadocio; color: #FF0000}
-H3.test6 {margin: 20 60 20; font size:34pt; font-family: braggadocio; color: #F2EFE4}
-H3.test7 {margin: 20 60 20; font size:34pt; font-family: braggadocio; color: #808080}
-H3.test8 {margin: 20 60 20; font size:34pt; font-family: braggadocio; color: #4C33A1}
-H3.test9 {margin: 20 60 20; font size:34pt; font-family: braggadocio; color: #EF8080}
-
-H4 {margin: 20 30 20; font size:18pt; font-family: braggadocio; color: #00B050}
-H5 {margin: 20 40 20; font size:16pt; font-family: braggadocio; color: #00B0B0}
-H6 {margin: 20 50 20; font size:14pt; font-family: braggadocio; color: #CB8C1D}
-P {margin: 10 60 10; font size:14pt; font-family: arial; color: #BD3632}
-P.code {margin: 10 60 10; font size:14pt; font-family: monospace; color: #4C3327}
-P.warning {margin: 10 60 10; font size:14pt; font-weight: bold; font-family: braggadocio; color: #FF0000}
-BODY {margin: 150 10 60; font size:14pt; font-family: arial; color: #BD3632; background: #F2EFE4}
-
-
-#header-fixed {position: fixed; margin: auto; width: 100%; background: #BD3632}
-#leftcolumn {float: left; top: 100px; width: 50%; background: #F2EFE4}
-#rightcolumn {float: right; top: 100px; width: 50%; background: #F2EFE4}
-#center {float: right; top: 100px; width: 100%; background: #F2EFE4}
-
-#menu {text-align: center}
-#menu ul {height: 40; padding: 10; list-style: none; display: inline}
-#menu ul li {padding: 0; display: inline; text-align: center; list-style: none; font-size: 18pt; font-family: arial; text-align:center; color: #BD3632}
-#menu li a {color: #4C3327; background-color: #CB8C1D; border: 1px outset #ff8080; padding: 8px; text-decoration: none; display: inline}
-#menu li a:hover {color: #CB8C1D; background-color: #4C3327}
-
-table {border-collapse:collapse; width: 100%}
-table, th, td {border: 2px solid black; background-color: #F2EFE4; text-align: left;}
-td.header {font size:16pt; font-weight: bold; color: #F2EFE4; background: #BD3632}
-
-#vertmenu {width: 180px; text-align:center}
-#vertmenu ul {margin: 0; padding: 0; list-style: none}
-#vertmenu li {margin: 0; padding: 0; display: block; list-style: none; font-family: Arial, Helvetica, sans-serif}
-#vertmenu li a {color: #ff0; background-color: #300000; border: 1px outset #ff8080; width: 180px; text-decoration: none; display: block}
-#vertmenu li a:hover {color: #000; background-color: #ffbfbf}
-
-*/
+.content_main {
+  max-width: 960px;
+  background-color: #f2f2f2;
+  margin: auto;
+}
 
 .header_main {
   overflow: hidden;
