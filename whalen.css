@@ -90,17 +90,18 @@ li {
 
 li a {
   color: #fff;
-    float: right;
 }
 
 li:hover,
 li:focus-within {
     background: red;
+    float: right;
     cursor: pointer;
 }
 
 li:focus-within a {
   outline: none;
+    float: right;
 }
 
 ul li ul {
@@ -120,6 +121,7 @@ ul li:focus-within > ul,
 ul li ul:hover,
 ul li ul:focus {
    visibility: visible;
+    float: right;
    opacity: 1;
    display: block;
 }
