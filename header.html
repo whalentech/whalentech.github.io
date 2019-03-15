@@ -5,36 +5,35 @@
 <link rel="stylesheet" type="text/css" href="whalen.css" />
 </head>
 <body>
-<div class="header_main">
-  <a href="index.html" class="logo">Whalen Technical Foundation</a>
-  <div class="header_main-right">
-    <!--- class active will not change even on a new page
-    <a class="active" href="index.html">Home</a>
-    --->
-    <a href="index.html">Home</a>
-    <a href="project_list.html">Projects</a>
-    <a href="about_WTF.html">About</a>
-  </div>
-</div>
-
-<!--- did not work, ended up with a menu that launched the new page within itself
-<div class="header_main">
-  <a href="#default" class="logo">Whalen Technical Foundation</a>
-  <div class="header_main-right">
-    <nav role="navigation">
-      <ul>
-        <li><a href="#" aria-haspopup="true">Menu</a>
-          <ul class="dropdown" aria-label="submenu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="project_list.html">Projects</a></li>
-            <li><a href="about_WTF.html">About</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</div>
+<!--- commented out for testing
+<!--- Menu below this point --->
+    <div class="header_main">
+      <a class="active" href="index.html" class="logo">Whalen Technical Foundation</a>
+      <div class="header_main-right">
+        <a href="project_list.html">Projects</a>
+        <a href="about_WTF.html">About</a>
+      </div>
+    </div>
+<!--- Menu above this point --->
 --->
+
+<!--- Menu below this point --->
+    <div class="header_main">
+      <a class="active" href="index.html" class="logo">Whalen Technical Foundation</a>
+      <div class="header_main-right">
+        <nav role="navigation">
+          <ul>
+            <li><a href="#" aria-haspopup="true">Menu</a>
+              <ul class="dropdown" aria-label="submenu">
+                <li><a href="project_list.html">Projects</a></li>
+                <li><a href="about_WTF.html">About</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+<!--- Menu above this point --->
 
 </body>
 </html>
