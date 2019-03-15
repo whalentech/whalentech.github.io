@@ -50,6 +50,11 @@ body {
   color: #8da7be;
 }
 
+.header_main a.active:hover {
+  background-color: #343e3d;
+  color: #508991;
+}
+
 .header_main-right {
   float: right;
 }
