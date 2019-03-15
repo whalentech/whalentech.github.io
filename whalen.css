@@ -90,6 +90,7 @@ li {
 
 li a {
   color: #fff;
+    float: right;
 }
 
 li:hover,
