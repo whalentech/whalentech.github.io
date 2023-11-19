@@ -1,0 +1,11 @@
+// Fullscreen:
+"FullscreenAllowed": true,
+
+// Hide the home button:
+"ShowHomeButton": false,
+
+// Hide the stupid apps button:
+"ShowAppsShortcutInBookmarkBar": false,
+
+// Hide the bookmark bar:
+"BookmarkBarEnabled": false,
